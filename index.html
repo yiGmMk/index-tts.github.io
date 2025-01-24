@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TTS Demo and Paper Introduction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #e0eafc, #cfdef3);
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: white;
+            padding: 20px 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        h1 {
+            color: #4facfe;
+        }
+        h2 {
+            margin-top: 40px;
+            color: #555;
+        }
+        .demo-section, .paper-section {
+            margin-top: 20px;
+        }
+        .demo-item {
+            margin-bottom: 20px;
+        }
+        .demo-item p {
+            margin: 5px 0;
+            font-size: 16px;
+        }
+        audio {
+            margin-top: 10px;
+        }
+        .paper-description {
+            line-height: 1.6;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 14px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>IndexTTS: An Industrial-Level Controllable and Efficient Zero-Shot Text-To-Speech System</h1>
+        <p>Explore text-to-speech examples and learn more about the research behind this technology.</p>
+        <!-- Paper Section -->
+        <div class="paper-section">
+            <h2>Paper Introduction</h2>
+            <p class="paper-description">
+                This project is based on our research paper, which explores advanced techniques in text-to-speech (TTS) synthesis.
+                The proposed method leverages a <strong>generative model</strong> to achieve high-quality, natural-sounding speech.
+                Key highlights of the paper include:
+            </p>
+            <ul>
+                <li>Eliminating the need for explicit text-to-speech alignment.</li>
+                <li>Adopting a two-stage model: semantic token prediction and acoustic token generation.</li>
+                <li>Using a large-scale dataset for training to improve zero-shot performance.</li>
+            </ul>
+            <p class="paper-description">
+                You can read the full paper here: 
+                <a href="https://arxiv.org/abs/xxxx.xxxxx" target="_blank">https://arxiv.org/abs/xxxx.xxxxx</a>
+            </p>
+        </div>
+
+        <!-- Demo Section -->
+        <div class="demo-section">
+            <h2>Text-to-Speech Examples</h2>
+
+            <!-- Example 1 -->
+            <div class="demo-item">
+                <p><strong>Text:</strong> Hello, welcome to our TTS demo.</p>
+                <audio controls>
+                    <source src="example1.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+
+            <!-- Example 2 -->
+            <div class="demo-item">
+                <p><strong>Text:</strong> This is a demonstration of our advanced TTS system.</p>
+                <audio controls>
+                    <source src="example2.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+
+            <!-- Example 3 -->
+            <div class="demo-item">
+                <p><strong>Text:</strong> Thank you for exploring our text-to-speech technology.</p>
+                <audio controls>
+                    <source src="example3.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+        </div>
+
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>© 2025 January, Index-TTS Team. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
